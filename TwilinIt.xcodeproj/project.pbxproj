@@ -14,6 +14,7 @@
 		CCC1ED6D1BC63F9A0050395D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC1ED6C1BC63F9A0050395D /* Images.xcassets */; };
 		CCC1ED701BC63F9A0050395D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC1ED6E1BC63F9A0050395D /* LaunchScreen.xib */; };
 		CCC1ED7C1BC63F9A0050395D /* TwilinItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC1ED7B1BC63F9A0050395D /* TwilinItTests.m */; };
+		CCC1ED861BC64D0D0050395D /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCC1ED851BC64D0D0050395D /* bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		CCC1ED751BC63F9A0050395D /* TwilinItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwilinItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC1ED7A1BC63F9A0050395D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCC1ED7B1BC63F9A0050395D /* TwilinItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwilinItTests.m; sourceTree = "<group>"; };
+		CCC1ED851BC64D0D0050395D /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		CCC1ED5E1BC63F9A0050395D /* TwilinIt */ = {
 			isa = PBXGroup;
 			children = (
+				CCC1ED851BC64D0D0050395D /* bg.jpg */,
 				CCC1ED631BC63F9A0050395D /* AppDelegate.h */,
 				CCC1ED641BC63F9A0050395D /* AppDelegate.m */,
 				CCC1ED661BC63F9A0050395D /* ViewController.h */,
@@ -201,6 +204,7 @@
 			files = (
 				CCC1ED6B1BC63F9A0050395D /* Main.storyboard in Resources */,
 				CCC1ED701BC63F9A0050395D /* LaunchScreen.xib in Resources */,
+				CCC1ED861BC64D0D0050395D /* bg.jpg in Resources */,
 				CCC1ED6D1BC63F9A0050395D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +422,7 @@
 				CCC1ED811BC63F9A0050395D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCC1ED821BC63F9A0050395D /* Build configuration list for PBXNativeTarget "TwilinItTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				CCC1ED841BC63F9A0050395D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
